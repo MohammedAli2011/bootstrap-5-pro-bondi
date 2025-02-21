@@ -1,0 +1,48 @@
+@media (max-width:991px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 72px;
+    }
+
+    /* start stuff */
+    .stuff .text {
+        width: 315px;
+    }
+
+    .stuff .stuff-content .laptop {
+        width: 460px;
+        margin-top: 115px;
+    }
+
+    /* start subscribe */
+    .subscribe .subscribe-content {
+        flex-direction: column;
+    }
+
+    .subscribe .subscribe-content .email {
+        max-width: calc(100% - 80px);
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .subscribe .subscribe-content button {
+        margin-left: calc(50% - 50px) !important;
+    }
+
+    /* start footer */
+    .footer {
+        text-align: center;
+    }
+}
+
+@media (max-width:767px) {
+    .stuff .text {
+        width: 100%;
+    }
+
+
+    .stuff .stuff-content .laptop {
+        width: 385px;
+        margin-top: 0;
+    }
+}
